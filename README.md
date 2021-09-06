@@ -31,14 +31,15 @@ Here I'm going to tell you about my favorite food and drinks,most of them are au
 ***
 # Code Fencing
 ## Dynamic Programming
-> Dynamic Programming (DP) is an algorithmic technique for solving an optimization problem by breaking it down into simpler subproblems and utilizing the fact that the optimal solution to the overall problem depends upon the optimal solution to its subproblems. <https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0>
+> Dynamic Programming (DP) is an algorithmic technique for solving an optimization problem by breaking it down into simpler subproblems and utilizing the fact that the optimal solution to the overall problem depends upon the optimal solution to its subproblems. <br>
+<https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0>
 
 * DP Optimizationn
     * Divide and Conquer DP<br>
 ```dp(i,j)=min0≤k≤j<br> dp(i−1,k−1)+C(k,j)```<br>
 <https://cp-algorithms.com/dynamic_programming/divide-and-conquer-dp.html>
 * Tasks 
-    * Dynamic Programming on Broken Profile. Problem "Parquet"
+    * Dynamic Programming on Broken Profile. Problem "Parquet"<br>
     ```mask=0,…2M−1```<br>
     <https://cp-algorithms.com/dynamic_programming/profile-dynamics.html>
     * Finding the largest zero submatrix<br>
@@ -62,7 +63,7 @@ Here I'm going to tell you about my favorite food and drinks,most of them are au
     ```This problem also has a simple matrix representation:Ax=b```<br> 
     <https://cp-algorithms.com/linear_algebra/linear-system-gauss.html><br>
 # Numerical Methods
-> In numerical analysis, a numerical method is a mathematical tool designed to solve numerical problems. The implementation of a numerical method with an appropriate convergence check in a programming language is called a numerical algorithm.
+> In numerical analysis, a numerical method is a mathematical tool designed to solve numerical problems. The implementation of a numerical method with an appropriate convergence check in a programming language is called a numerical algorithm.<br>
 <https://en.wikipedia.org/wiki/Numerical_method>
 * Search 
     * Ternary Search<br>
@@ -72,6 +73,6 @@ Here I'm going to tell you about my favorite food and drinks,most of them are au
     ```xi+1=xi−f(xi)f′(xi)```<br>
     <https://cp-algorithms.com/num_methods/roots_newton.html><br>
 * Integration
-    * Integration by Simpson's formula
+    * Integration by Simpson's formula<br>
     ```∫baf(x)dx≈(f(x0)+4f(x1)+2f(x2)+4f(x3)+2f(x4)+…+4f(x2N−1)+f(x2N))h3```<br>
     <https://cp-algorithms.com/num_methods/simpson-integration.html>
