@@ -69,7 +69,7 @@ Here I'm going to tell you about my favorite food and drinks,most of them are au
     ```consider any 2 points m1, and m2 in this interval: l<m1<m2<r. We evaluate the function at m1 and m2, i.e. find the values of f(m1) and f(m2). Now, we get one of three options:```<br>
     <https://cp-algorithms.com/num_methods/ternary_search.html><br>
     * Newton's method for finding roots<br>
-    ```xi+1=xi−f(xi)f′(xi)```
+    ```xi+1=xi−f(xi)f′(xi)```<br>
     <https://cp-algorithms.com/num_methods/roots_newton.html><br>
 * Integration
     * Integration by Simpson's formula
