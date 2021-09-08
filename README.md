@@ -36,11 +36,10 @@ Here I'm going to tell you about my favorite food and drinks,most of them are au
 
 * DP Optimizationn
     * Divide and Conquer DP<br>
-
-  ```
-  int m, n;
+```int m, n;
 vector<long long> dp_before(n), dp_cur(n);
 long long C(int i, int j);
+
 // compute dp_cur[l], ... dp_cur[r] (inclusive)
 void compute(int l, int r, int optl, int optr) {
     if (l > r)
@@ -63,10 +62,11 @@ int solve() {
         dp_before = dp_cur;
     }
     return dp_before[n - 1];
-} 
- ```
-<br>
+}```
+ 
+
 <https://cp-algorithms.com/dynamic_programming/divide-and-conquer-dp.html>
+
 * Tasks 
     * Dynamic Programming on Broken Profile. Problem "Parquet"<br>
     ```mask=0,…2M−1```<br>
